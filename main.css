@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: dimgray;
+}
+
+header h1 {
+    /*add font style and size*/
+    text-decoration: underline;
+    
+}
+
+.header_title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+input,
+textarea {
+  outline: none;
+  resize: none;
+}
+
