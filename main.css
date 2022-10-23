@@ -64,6 +64,7 @@ header p{
  padding: 30px 20px;
  margin-top: 10px;
  height: 300px;
+ overflow: scroll;
 }
 
 
@@ -86,6 +87,7 @@ header p{
   /*width: 84.5%;*/
   padding: 8px 14px;
   background: transparent;
+  color: dimgray;
 }
 
 .note_title {
