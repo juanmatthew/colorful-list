@@ -18,43 +18,6 @@ header p{
     font-size: 14px;
 }
 
-.header-elements {
-    display: flex;
-    align-items: center;
-    margin: 10px 0 0 10px;
-}
-
-.search_input,
-.add-new-note-btn {
-    font-size: 14px;
-    padding: 5px;
-    margin: 8px;
-}
-
-/*input field*/
-.header-elements input{
-  outline: none;
-  resize: none;
-}
-
-.search_input {
-    background-color: #eafcfe;
-    border-radius: 5px;
-    border: 1px solid #dbdbdb;
-    width: 250px;
-}
-
-/*button*/
-.add-new-note-btn {
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    font-weight: bolder;
-    background-color: #70b1af;
-    color: #fafcfc;
-    outline: none;
-}
-
 /*---NOTES SECTION----*/
 
 #note-container {
@@ -67,6 +30,18 @@ header p{
  /*overflow: scroll;*/
 }
 
+/*------button-----*/
+.add-new-note-btn {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: #70b1af;
+  color: #fafcfc;
+  outline: none;
+  font-size: 14px;
+  padding: 7px;
+}
 
 .note{
   font-family: "Permanent Marker", cursive;
@@ -81,35 +56,3 @@ header p{
   position: relative;
 }
 
-.note_title,
-.note_description {
-  font-family: "Permanent Marker", cursive;
-  /*width: 84.5%;*/
-  padding: 8px 14px;
-  background: transparent;
-  color: dimgray;
-}
-
-.note_title {
-    font-size: 16px;
-    font-weight: bold;
-}
-  
-.note_description {
-    flex-grow: 1;
-    font-size: 14px;
-}
-  
-.note_delete {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    font-size: 20px;
-    color: lightgrey;
-    padding: 5px;
-}
-  
-.note_delete:hover {
-    color: black;
-    cursor: pointer;
-}
