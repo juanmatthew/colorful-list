@@ -2,12 +2,18 @@
 body {
     margin: 20px;
     color: dimgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*---HEADER----*/
 header h1 {
     /*add font style and size*/
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: 55px;
+}
+
+header h1 span {
+    font-size: 18px;
 }
 
 .header_title {
@@ -18,43 +24,57 @@ header p{
     font-size: 14px;
 }
 
+header p span {
+    /*text-shadow: 4px 4px .5px #cccccc;*/
+    font-weight: bold;
+}
+
 /*---NOTES SECTION----*/
 
 #app {
- border-radius: 10px;
- position: relative;
- background-color: #bff5ec;
- padding: 30px 20px;
- margin-top: 10px;
- height: 300px;
- /*overflow: scroll;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    border-radius: 10px;
+    background-color: #bff5ec;
+    padding: 24px;
+    gap: 24px;
+    /*overflow: scroll;
+    position: relative;
+    margin-top: 10px;
+    height: 300px;*/
 }
 
 .note{
     font-family: "Permanent Marker", cursive;
     width: 200px;
     height: 200px;
-    margin: 10px;
+    margin: 0;
+    padding: 5px;
     background-color: lightyellow;
     border: 1px solid #c2c2c2;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     position: relative;
+    resize: none;
+    outline: none;
 }
 
 
 /*------button-----*/
 .add-note-btn {
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  font-weight: bolder;
-  background-color: #70b1af;
-  color: #fafcfc;
-  outline: none;
-  font-size: 14px;
-  padding: 7px;
+    height: 40px;
+    margin-top: 172px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: #70b1af;
+    color: #fafcfc;
+    outline: none;
+    font-size: 14px;
+    padding: 7px;
 }
 
 
