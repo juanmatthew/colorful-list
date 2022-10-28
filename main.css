@@ -20,7 +20,7 @@ header p{
 
 /*---NOTES SECTION----*/
 
-#note-container {
+#app {
  border-radius: 10px;
  position: relative;
  background-color: #bff5ec;
@@ -30,8 +30,22 @@ header p{
  /*overflow: scroll;*/
 }
 
+.note{
+    font-family: "Permanent Marker", cursive;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: lightyellow;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
 /*------button-----*/
-.add-new-note-btn {
+.add-note-btn {
   border-radius: 5px;
   border: none;
   cursor: pointer;
@@ -43,16 +57,5 @@ header p{
   padding: 7px;
 }
 
-.note{
-  font-family: "Permanent Marker", cursive;
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  background-color: lightyellow;
-  border: 1px solid #c2c2c2;
-  border-radius: 3px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
+
 
