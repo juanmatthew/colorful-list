@@ -18,21 +18,21 @@ header p{
     font-size: 14px;
 }
 
-.header_elements {
+.header-elements {
     display: flex;
     align-items: center;
     margin: 10px 0 0 10px;
 }
 
 .search_input,
-.add-new-task-btn {
+.add-new-note-btn {
     font-size: 14px;
     padding: 5px;
     margin: 8px;
 }
 
 /*input field*/
-.header_elements input{
+.header-elements input{
   outline: none;
   resize: none;
 }
@@ -45,7 +45,7 @@ header p{
 }
 
 /*button*/
-.add-new-task-btn {
+.add-new-note-btn {
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -57,14 +57,14 @@ header p{
 
 /*---NOTES SECTION----*/
 
-.note_section {
+#note-container {
  border-radius: 10px;
  position: relative;
  background-color: #bff5ec;
  padding: 30px 20px;
  margin-top: 10px;
  height: 300px;
- overflow: scroll;
+ /*overflow: scroll;*/
 }
 
 
@@ -74,7 +74,7 @@ header p{
   height: 200px;
   margin: 10px;
   background-color: lightyellow;
-  border: 1px solid grey;
+  border: 1px solid #c2c2c2;
   border-radius: 3px;
   display: flex;
   flex-direction: column;

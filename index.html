@@ -15,27 +15,28 @@
         <script src="index.js" defer></script>
     </head>
     <body>
-        
         <div class="container">
             <header>
                 <h1 class= "header_title">To-Do List</h1>
                 <h3>Together we can create lists and then complete them!</h3>
                 <p>...or else our anxiety is gonna show up and steal our lunch money.</p>
             </header>
-            <div class="header_elements">
-                <button class="add-new-task-btn"> Add New Note!</button>
-                <input class="search_input" type="text" placeholder="Type here to find yo note!!"/>
-            </div>
-            <div class="note_section">
-                <ul>
-                    <li class="note">
-                        <input class="note_title" type="text" placeholder="Title" />
-                        <textarea class="note_description" placeholder="Description..."></textarea>
-                        <span class="note_delete">X</span>
-                    </li>
-                </ul>    
+            
+            <div class="container">
+                <div class="header-elements">
+                    <input class="search_input" type="text" placeholder="Type here to find yo note!!"/>
+                </div>
+                <div id="note-container">
+                    <button class="add-new-note-btn"> Add New Note!</button>
+                    <ul>
+                        <li class="note">
+                            <input class="note_title" type="text" placeholder="Title" />
+                            <textarea class="note_description" placeholder="Description..."></textarea>
+                            <span class="note_delete">X</span>
+                        </li>
+                    </ul> 
+                </div>   
             </div>
         </div>
-
     </body>
 </html>
